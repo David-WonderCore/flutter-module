@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/david/Downloads/flutter
-FLUTTER_APPLICATION_PATH=/Users/david/Documents/iOS/wondercise-ios-app/flutter_module
+FLUTTER_APPLICATION_PATH=/Users/david/Documents/other/flutter-module/flutter_module/Classes/flutter_module
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
@@ -11,4 +11,4 @@ EXCLUDED_ARCHS[sdk=iphoneos*]=armv7
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=false
 TREE_SHAKE_ICONS=true
-PACKAGE_CONFIG=/Users/david/Documents/iOS/wondercise-ios-app/flutter_module/.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/david/Documents/other/flutter-module/flutter_module/Classes/flutter_module/.dart_tool/package_config.json
