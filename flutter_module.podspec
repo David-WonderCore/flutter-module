@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'flutter_module/Classes/**/*'
+
+  s.resources = ['flutter_module/Classes/flutter_module/.ios/**/*', 'flutter_module/Classes/flutter_module/.android/**/*' , 'flutter_module/Classes/flutter_module/.dart_tool/**/*']
   
   # s.resource_bundles = {
   #   'flutter_module' => ['flutter_module/Assets/*.png']
