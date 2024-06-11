@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_module/profile_setting.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_module/lottie_poc.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
        */
       routes: <String, WidgetBuilder>{
         '/account/profile/setting': (BuildContext context) => const ProfileSetting(),
+        '/lottie': (BuildContext context) => const LottiePoc(),
       },
-      home: const MyHomePage(),
+      home: const LottiePoc(),
     );
   }
 }
