@@ -29,6 +29,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   provider: ^6.0.2
   lottie: ^3.1.2
+  video_player: ^2.8.7
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +49,7 @@ flutter:
   # like this:
   assets:
     - assets/lottie/ani_375x375_check.json
+    - assets/video/video_1080x1920_login.mp4
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
