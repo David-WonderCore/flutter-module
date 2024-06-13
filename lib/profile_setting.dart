@@ -13,6 +13,8 @@ class ProfileSetting extends StatefulWidget {
 /// 如果未來要用 Bloc 等其他的狀態管理套件，寫法會很不一樣
 /// 沒有哪個比較好，單看未來我們 Flutter architecture 會適合哪種
 ///
+
+
 class ProfileSettingModel extends ChangeNotifier {
   ProfileSettingModel() {
     channel.setMethodCallHandler(_handleMessage);
